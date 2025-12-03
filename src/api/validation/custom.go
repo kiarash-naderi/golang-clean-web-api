@@ -2,7 +2,6 @@ package validation
 
 import (
 	"errors"
-
 	"github.com/go-playground/validator/v10"
 )
 
@@ -28,3 +27,4 @@ func GetValidationErrors(err error) *[]ValidationError {
 	}
 	return nil
 }
+
